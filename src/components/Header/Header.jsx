@@ -43,19 +43,19 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Need Help?</span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +1-202-555-0149
+                  <i class="ri-phone-fill"></i> <a href="tel:7210000092" style={{color: "white", textDecoration:"none", fontSize:"20px"}}>+91 7210000092</a> 
                 </span>
               </div>
             </Col>
 
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-login-circle-line"></i> Login
+                <Link to="https://wa.me/7210000092" className=" d-flex align-items-center gap-1">
+                  <i class="ri-instagram-line"></i> Instagram
                 </Link>
 
-                <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-user-line"></i> Register
+                <Link to="https://wa.me/7210000092" className=" d-flex align-items-center gap-1">
+                  <i class="ri-whatsapp-line"></i> Whatsapp
                 </Link>
               </div>
             </Col>
@@ -73,7 +73,7 @@ const Header = () => {
                   <Link to="/home" className=" d-flex align-items-center gap-2">
                     <i class="ri-car-line"></i>
                     <span>
-                      Rent Car <br /> Service
+                      Blessful<br />Pathways
                     </span>
                   </Link>
                 </h1>
@@ -86,8 +86,8 @@ const Header = () => {
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Bangladesh</h4>
-                  <h6>Sylhet City, Bangladesh</h6>
+                  <h4>India</h4>
+                  <h6>Punjab, India</h6>
                 </div>
               </div>
             </Col>
@@ -98,8 +98,8 @@ const Header = () => {
                   <i class="ri-time-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Sunday to Friday</h4>
-                  <h6>10am - 7pm</h6>
+                  <h4>Monday to Saturday</h4>
+                  <h6>24/7 hrs</h6>
                 </div>
               </div>
             </Col>
@@ -111,8 +111,8 @@ const Header = () => {
               className=" d-flex align-items-center justify-content-end "
             >
               <button className="header__btn btn ">
-                <Link to="/contact">
-                  <i class="ri-phone-line"></i> Request a call
+                <Link to="tel:7210000092">
+                  <i class="ri-phone-line"></i> <a href="tel:7210000092">Request a call</a>
                 </Link>
               </button>
             </Col>
@@ -146,12 +146,10 @@ const Header = () => {
             </div>
 
             <div className="nav__right">
-              <div className="search__box">
-                <input type="text" placeholder="Search" />
-                <span>
-                  <i class="ri-search-line"></i>
-                </span>
-              </div>
+            <Link to="https://wa.me/7210000092" className=" d-flex align-items-center gap-1" style={{color: "white", textDecoration:"none", fontSize:"20px"}}>
+                  <i class="ri-whatsapp-line"></i>Whatsapp
+                </Link>
+
             </div>
           </div>
         </Container>

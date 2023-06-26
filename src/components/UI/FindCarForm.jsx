@@ -35,7 +35,7 @@ const FindCarForm = () => {
         </FormGroup>
 
         <FormGroup className="form__group">
-          <button className="btn find__car-btn">Find Car</button>
+          <button className="btn find__car-btn" onClick={()=>{window.open('/cars')}}>Find Car</button>
         </FormGroup>
       </div>
     </Form>

@@ -52,7 +52,7 @@ const About = () => {
 
                   <div>
                     <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
+                    <h4><a href="tel:+917210000092" style={{color: "black", textDecoration:"none", fontSize:"28px"}}>+91 7210000092</a></h4>
                   </div>
                 </div>
               </div>
