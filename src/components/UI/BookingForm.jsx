@@ -12,6 +12,7 @@ const BookingForm = () => {
     emailjs.sendForm('service_wi5qitp', 'template_4kmge3h',e.target, '7eVfn4k5gxgoylehE')
       .then((result) => {
           console.log(result);
+          alert('Message Send Sucessfully');
       }, (error) => {
           console.log(error.text);
       });

@@ -50,7 +50,7 @@ const Header = () => {
 
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                <Link to="https://wa.me/7210000092" className=" d-flex align-items-center gap-1">
+                <Link to="https://www.instagram.com" className=" d-flex align-items-center gap-1">
                   <i class="ri-instagram-line"></i> Instagram
                 </Link>
 
@@ -73,7 +73,7 @@ const Header = () => {
                   <Link to="/home" className=" d-flex align-items-center gap-2">
                     <i class="ri-car-line"></i>
                     <span>
-                      Blessful<br />Pathways
+                      Blissful<br />Pathways
                     </span>
                   </Link>
                 </h1>

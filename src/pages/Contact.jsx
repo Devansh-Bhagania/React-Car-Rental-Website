@@ -36,6 +36,7 @@ const Contact = () => {
     emailjs.sendForm('service_m23siff', 'template_13i5h5n',e.target, '7eVfn4k5gxgoylehE')
       .then((result) => {
           console.log(result.text);
+          alert('Message Send Successfully')
       }, (error) => {
           console.log(error.text);
       });
