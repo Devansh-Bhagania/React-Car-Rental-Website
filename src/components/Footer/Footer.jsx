@@ -3,6 +3,7 @@ import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/footer.css";
+import jannattravelslogo from "../../assets/all-images/jannattravelslogo.png";
 
 const quickLinks = [
   {
@@ -41,10 +42,11 @@ const Footer = () => {
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <i class="ri-car-line"></i>
+                  {/* <i class="ri-car-line"></i>
                   <span>
                    Blissful<br />Pathways
-                  </span>
+                  </span> */}
+                  <img src={jannattravelslogo} alt="Jannat Travels" srcset="" style={{width:"120px",filter:"invert(1)"}} />
                 </Link>
               </h1>
             </div>
