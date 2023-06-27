@@ -11,12 +11,18 @@ import carData from "../assets/data/carData";
 import CarItem from "../components/UI/CarItem";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 import Testimonial from "../components/UI/Testimonial";
+import {helmet} from "react-helmet";
 
 import BlogList from "../components/UI/BlogList";
 
 const Home = () => {
   return (
     <Helmet title="Home">
+      <Helmet>
+       <meta name="description" content="Jannat Travels Cab Services Tours Booking Himachal Manali Tour Booking Services Punjab Taxi Services" />
+        <meta name="Cabs" content="Jannat travels Provide Taxi Services Cab Services Tours and Travels for Manali Delhi Himachal Pardesh Uttarkhand "/>
+        <meta name="description" content="Explore the world with us we Provide Reliable Cab Services from chandigarh to Hill Stations, Airport Transfers, Taxi Services etc."  />
+      </Helmet>
       {/* ============= hero section =========== */}
       <section className="p-0 hero__slider-section">
         <HeroSlider />
