@@ -32,17 +32,22 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  Customer satisfaction is at the core of our business. We take
+                  pride in delivering personalized and attentive customer
+                  service. Our dedicated support team is available 24/7 to
+                  address any inquiries or special requests you may have. We
+                  value your feedback and continuously strive to improve our
+                  services based on your suggestions, ensuring that your
+                  experience with Jannat Travels is nothing short of
+                  exceptional.
                 </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  Our drivers are familiar with the local routes and traffic
+                  patterns, allowing us to provide efficient and timely
+                  transportation services. Whether you need an airport pickup, a
+                  hotel transfer, or transportation for a special event, we
+                  strive to ensure that you reach your destination on time.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
@@ -52,7 +57,18 @@ const About = () => {
 
                   <div>
                     <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4><a href="tel:+917210000092" style={{color: "black", textDecoration:"none", fontSize:"28px"}}>+91 7210000092</a></h4>
+                    <h4>
+                      <a
+                        href="tel:+917210000092"
+                        style={{
+                          color: "black",
+                          textDecoration: "none",
+                          fontSize: "28px",
+                        }}
+                      >
+                        +91 7210000092
+                      </a>
+                    </h4>
                   </div>
                 </div>
               </div>

@@ -120,13 +120,19 @@
 
 @media only screen and (max-width: 576px) {
   .form__group {
-    width: 100%;
+    width: 70%;
     margin: auto;
     margin-bottom: 15px;
   }
 
   .form__group input {
     font-size: 0.7rem !important;
+  }
+
+  .hero__form{
+    width:90%;
+    margin-left:5%;
+   
   }
 
   .select__group {

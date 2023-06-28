@@ -147,10 +147,11 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="nav__right">
+            <div className="nav__right mobile__menu">
             <Link to="https://wa.me/7210000092" className=" d-flex align-items-center gap-1" style={{color: "white", textDecoration:"none", fontSize:"20px"}}>
                   <i class="ri-whatsapp-line"></i>Whatsapp
                 </Link>
+              
 
             </div>
           </div>

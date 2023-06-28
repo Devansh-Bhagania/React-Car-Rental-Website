@@ -46,15 +46,20 @@ const Footer = () => {
                   <span>
                    Blissful<br />Pathways
                   </span> */}
-                  <img src={jannattravelslogo} alt="Jannat Travels" srcset="" style={{width:"120px",filter:"invert(1)"}} />
+                  <img
+                    src={jannattravelslogo}
+                    alt="Jannat Travels"
+                    srcset=""
+                    style={{ width: "120px", filter: "invert(1)" }}
+                  />
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+              Jannat Travels Cab Services: Your trusted partner for reliable,
+              safe, and comfortable transportation. Choose Jannat
+              Travels for punctuality, professionalism, and a travel experience
+              that exceeds your expectations.
             </p>
           </Col>
 
