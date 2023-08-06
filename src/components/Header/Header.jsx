@@ -56,7 +56,7 @@ const Header = () => {
                 </Link>
 
                 <Link to="https://wa.me/7210000092" className=" d-flex align-items-center gap-1">
-                  <i class="ri-whatsapp-line"></i> Whatsapp
+                  <i class="ri-whatsapp-line"></i> Whatsappgtb
                 </Link>
               </div>
             </Col>
