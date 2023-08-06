@@ -77,19 +77,19 @@ const Contact = () => {
               <div className="contact__info">
                 <h6 className="fw-bold">Contact Information</h6>
                 <p className="section__description mb-0">
-                  Main Market, Sirhind, Punjab , India
+                #4421 Near Bus Stand , GT Road Sirhind, Punjab
                 </p>
                 <div className=" d-flex align-items-center gap-2">
-                  <h6 className="fs-6 mb-0">Phone:</h6>
+                  <h6 className="fw-bold fs-6 mb-0">Phone:</h6>
                   <p className="section__description mb-0">+917210000092</p>
                 </div>
 
                 <div className=" d-flex align-items-center gap-2">
-                  <h6 className="mb-0 fs-6">Email:</h6>
-                  <p className="section__description mb-0">devanshbhagania19@gmail.com</p>
+                  <h6 className="mb-0 fs-6 fw-bold">Email:</h6>
+                  <p className="section__description mb-0">  ridewithjannattravels@gmail.com</p>
                 </div>
 
-                <h6 className="fw-bold mt-4">Follow Us</h6>
+                <h6 className="fw-bold mt-4 ">Follow Us</h6>
 
                 <div className=" d-flex align-items-center gap-4 mt-3">
                   {socialLinks.map((item, index) => (

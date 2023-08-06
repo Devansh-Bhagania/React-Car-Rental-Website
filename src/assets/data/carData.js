@@ -7,6 +7,7 @@ import img05 from "../all-images/cars-img/offer-toyota.png";
 import img06 from "../all-images/cars-img/mercedes-offer.png";
 // import img07 from "../all-images/cars-img/toyota-offer-2.png";
 // import img08 from "../all-images/cars-img/mercedes-offer.png";
+import img08 from "../all-images/cars-img/toyota-etios-website.webp"
 
 const carData = [
   {
@@ -14,9 +15,9 @@ const carData = [
     brand: "Toyota",
     rating: 112,
     carName: "Toyota Xcent",
-    imgUrl: img01,
+    imgUrl: img08,
     model: "2015",
-    price: 5000,
+    price: 12,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Leather Seats",

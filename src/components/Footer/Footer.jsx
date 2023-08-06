@@ -79,10 +79,10 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">Sirhind , Punjab , India</p>
+              <p className="office__info">#4421 Near Bus Stand , GT Road Sirhind, Punjab</p>
               <p className="office__info">Phone: +917210000092</p>
 
-              <p className="office__info">Email: devanshbhagania19@gmail.com</p>
+              <p className="office__info">Email: ridewithjannattravels@gmail.com</p>
 
               <p className="office__info">Office Time: 10am - 10pm</p>
             </div>

@@ -56,7 +56,7 @@ const Header = () => {
                 </Link>
 
                 <Link to="https://wa.me/7210000092" className=" d-flex align-items-center gap-1">
-                  <i class="ri-whatsapp-line"></i> Whatsappgtb
+                  <i class="ri-whatsapp-line"></i> Whatsapp
                 </Link>
               </div>
             </Col>
@@ -147,9 +147,12 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="nav__right mobile__menu">
-            <Link to="https://wa.me/7210000092" className=" d-flex align-items-center gap-1" style={{color: "white", textDecoration:"none", fontSize:"20px"}}>
-                  <i class="ri-whatsapp-line"></i>Whatsapp
+            <div className="nav__right mobile__menu d-flex flex-row-reverse gap-2">
+            <Link to="https://www.instagram.com/jannat.travels/?igshid=MzRlODBiNWFlZA%3D%3D" className=" d-flex align-items-center gap-1">
+                  <i class="ri-instagram-line"></i>
+                </Link>
+            <Link to="https://wa.me/7210000092" className=" d-flex align-items-center gap-2" style={{color: "white", textDecoration:"none", fontSize:"20px"}}>
+                  <i class="ri-whatsapp-line"></i>
                 </Link>
               
 
