@@ -51,7 +51,7 @@ const Header = () => {
 
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                <Link to="https://www.instagram.com" className=" d-flex align-items-center gap-1">
+                <Link to="https://www.instagram.com/jannat.travels/?igshid=MzRlODBiNWFlZA%3D%3D" className=" d-flex align-items-center gap-1">
                   <i class="ri-instagram-line"></i> Instagram
                 </Link>
 
