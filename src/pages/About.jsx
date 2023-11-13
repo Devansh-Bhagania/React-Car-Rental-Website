@@ -31,7 +31,7 @@ const About = () => {
                   We Are Committed To Provide Safe Ride Solutions
                 </h2>
 
-                <p className="section__description">
+                <p className="section__description1">
                   Customer satisfaction is at the core of our business. We take
                   pride in delivering personalized and attentive customer
                   service. Our dedicated support team is available 24/7 to
@@ -42,7 +42,7 @@ const About = () => {
                   exceptional.
                 </p>
 
-                <p className="section__description">
+                <p className="section__description1">
                   Our drivers are familiar with the local routes and traffic
                   patterns, allowing us to provide efficient and timely
                   transportation services. Whether you need an airport pickup, a

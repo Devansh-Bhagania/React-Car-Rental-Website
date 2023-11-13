@@ -32,6 +32,9 @@ blockquote {
 .leave__comment-form textarea:focus {
   outline: none;
 }
+.section_description1{
+  color:black;
+}
 
 .comment__btn {
   background: #000d6b !important;
@@ -78,4 +81,5 @@ blockquote {
     font-size: 0.8rem;
     line-height: 1.4rem;
   }
+
 }

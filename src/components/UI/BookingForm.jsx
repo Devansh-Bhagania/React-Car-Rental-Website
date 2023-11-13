@@ -63,14 +63,14 @@ const BookingForm = () => {
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
         <input type="date"name="date" placeholder="Journey Date" />
       </FormGroup>
-      <FormGroup className="booking__form d-inline-block ms-1 mb-4">
+      {/* <FormGroup className="booking__form d-inline-block ms-1 mb-4">
         <input
           type="time"
           name="time"
           placeholder="Journey Time"
           className="time__picker"
         />
-      </FormGroup>
+      </FormGroup> */}
 
       <FormGroup>
         <textarea

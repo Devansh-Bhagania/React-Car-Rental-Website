@@ -42,11 +42,11 @@ const BlogDetails = () => {
                   </span>
                 </div>
 
-                <p className="section__description">{blog.description}</p>
+                
                 <h6 className="ps-5 fw-normal">
                   <blockquote className="fs-4">{blog.quote}</blockquote>
                 </h6>
-                <p className="section__description">{blog.description}</p>
+                <p className="ps-5 fw-normal">{blog.description}</p>
               </div>
 
               <div className="comment__list mt-5">
@@ -57,10 +57,8 @@ const BlogDetails = () => {
                   <div className="comment__content">
                     <h6 className=" fw-bold">Devansh Bhagania</h6>
                     <p className="section__description mb-0">14 July, 2022</p>
-                    <p className="section__description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos nobis totam eius laborum molestias itaque minima
-                      distinctio, quae velit tempore!
+                    <p className="section__description1">
+                    Absolutely loved this article!
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">

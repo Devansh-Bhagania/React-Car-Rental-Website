@@ -56,10 +56,7 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content">
-              Jannat Travels Cab Services: Your trusted partner for reliable,
-              safe, and comfortable transportation. Choose Jannat
-              Travels for punctuality, professionalism, and a travel experience
-              that exceeds your expectations.
+            Jannat Travels Cab Services Tours Booking Himachal Manali Tour Booking Services Punjab Taxi Services Tours and Travels for Manali Delhi Himachal Pardesh Uttarkhand
             </p>
           </Col>
 

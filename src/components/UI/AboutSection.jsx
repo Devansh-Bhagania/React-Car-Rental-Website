@@ -13,15 +13,15 @@ const AboutSection = ({ aboutClass }) => {
           : { marginTop: "280px" }
       }
     >
-      <Container>
+      <Container >
         <Row>
-          <Col lg="6" md="6">
-            <div className="about__section-content">
+          <Col lg="6" md="6" >
+            <div className="about__section-content ">
               <h4 className="section__subtitle">About Us</h4>
               <h2 className="section__title">
                 Welcome to Jannat Travels Cab Services
               </h2>
-              <p className="section__description">
+              <p className="section__description1">
                 We
                 prioritize customer satisfaction and go the extra mile to exceed
                 your expectations. Our dedicated customer support team is
@@ -38,21 +38,21 @@ const AboutSection = ({ aboutClass }) => {
               </p>
 
               <div className="about__section-item d-flex align-items-center">
-                <p className="section__description d-flex align-items-center gap-2">
+                <p className="section__description1 d-flex align-items-center gap-2">
                   <i class="ri-checkbox-circle-line"></i> Reliable and Safe Transportation
                 </p>
 
-                <p className="section__description d-flex align-items-center gap-2">
+                <p className="section__description1 d-flex align-items-center gap-2">
                   <i class="ri-checkbox-circle-line"></i> Punctuality and Efficiency
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
-                <p className="section__description d-flex align-items-center gap-2">
+                <p className="section__description1 d-flex align-items-center gap-2">
                   <i class="ri-checkbox-circle-line"></i> Exceptional Customer Service
                 </p>
 
-                <p className="section__description d-flex align-items-center gap-2">
+                <p className="section__description1 d-flex align-items-center gap-2">
                   <i class="ri-checkbox-circle-line"></i> Diverse Fleet Options
                 </p>
               </div>

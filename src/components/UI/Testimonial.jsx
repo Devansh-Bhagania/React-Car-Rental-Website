@@ -41,72 +41,62 @@ const Testimonial = () => {
   return (
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
-        <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        <p className="section__description1">
+        The drivers are professional and have excellent knowledge of the local area. They ensure a smooth and safe ride every time.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Shubham Tara</h6>
+            <h6 className="mb-0 mt-3">Harshvardhan Sikka</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
-        <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        <p className="section__description1">
+        The vehicles are always spotless and well-maintained. I appreciate the attention to detail in keeping the interiors clean and comfortable. 
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Karman Thakur</h6>
+            <h6 className="mb-0 mt-3">Manish Sharma</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
-        <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        <p className="section__description1">
+        Jannat Travels Cab services is available around the clock. This reliability is particularly reassuring for late-night or early-morning rides.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Devansh Bhagania</h6>
+            <h6 className="mb-0 mt-3">Kuldeep Singh</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
-        <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        <p className="section__description1">
+        I booked a Cab for a special occasion, and it was a fantastic experience.
+        Absolutely Great Ride and wonderful experience.
+        Highly Recommended!
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Jagtar Singh</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>

@@ -3,7 +3,7 @@ import "../../styles/become-driver.css";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 
-import driverImg from "../../assets/all-images/toyota-offer-2.png";
+import driverImg from "../../assets/all-images/cars-img/background_scorpio.png";
 
 const BecomeDriverSection = () => {
   return (
@@ -16,7 +16,7 @@ const BecomeDriverSection = () => {
 
           <Col lg="6" md="6" sm="12">
             <h2 className="section__title become__driver-title">
-              Do You Want to Earn With Us? So Don't Be Late
+              Do You Want to Rent a Car? So Call to Enquire...
             </h2>
 
             <button className="btn reserve__btn mt-4">
@@ -28,5 +28,6 @@ const BecomeDriverSection = () => {
     </section>
   );
 };
+
 
 export default BecomeDriverSection;

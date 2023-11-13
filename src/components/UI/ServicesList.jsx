@@ -21,7 +21,7 @@ const ServiceItem = ({ item }) => (
       </span>
 
       <h6>{item.title}</h6>
-      <p className="section__description">{item.desc}</p>
+      <p className="section__description1">{item.desc}</p>
     </div>
   </Col>
 );

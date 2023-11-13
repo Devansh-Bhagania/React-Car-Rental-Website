@@ -18,13 +18,13 @@ import BlogList from "../components/UI/BlogList";
 const Home = () => {
   return (
     <Helmet title="Home">
-      {/* <Helmet>
+      <Helmet>
        <meta name="description" content="Jannat Travels Cab Services Tours Booking Himachal Manali Tour Booking Services Punjab Taxi Services" />
         <meta name="Cabs" content="Jannat travels Provide Taxi Services Cab Services Tours and Travels for Manali Delhi Himachal Pardesh Uttarkhand "/>
         <meta name="description" content="Explore the world with us we Provide Reliable Cab Services from chandigarh to Hill Stations, Airport Transfers, Taxi Services etc."  />
-      </Helmet> */}
+      </Helmet>
       {/* ============= hero section =========== */}
-      <section className="p-0 hero__slider-section">
+      <section className="p-0 hero__slider-section bg-slate-400">
         <HeroSlider />
 
         <div className="hero__form">
@@ -33,6 +33,7 @@ const Home = () => {
               <Col lg="4" md="4">
                 <div className="find__cars-left">
                   <h2>Find your best Cab here</h2>
+                  <h3></h3>
                 </div>
               </Col>
 
@@ -46,8 +47,8 @@ const Home = () => {
       {/* =========== about section ================ */}
       <AboutSection />
       {/* ========== services section ============ */}
-      <section>
-        <Container>
+      <section> 
+        <Container >
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <h6 className="section__subtitle">See our</h6>
@@ -82,7 +83,7 @@ const Home = () => {
           <Row>
             <Col lg="12" className="mb-4 text-center">
               <h6 className="section__subtitle">Our clients says</h6>
-              <h2 className="section__title">Testimonials</h2>
+              <h2 className="section__title">Customer Reviews</h2>
             </Col>
 
             <Testimonial />
